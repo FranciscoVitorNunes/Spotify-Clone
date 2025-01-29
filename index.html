@@ -1,11 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotfy</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+        integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
+
+    <title>Spotify</title>
+    
 </head>
 <body>
-    
+    <div class="sidebar">
+        <nav class="sidebar-navigation">
+            <div class="sidebar-logo">
+                <a href="#"> <img src="./assets/icons/logo-spotify.png" alt="Logo Spotify"> </a>
+            </div>
+
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="fa fa-home"></span>
+                            <span>Inicio</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="fa fa-search"></span>
+                            <span>Buscar</span>
+                        </a>
+                    </li>
+                </ul>
+        </nav>
+
+        <div class="library">
+            <div class="library-content">
+                <button class="library-button">
+                    <span class="fa fa-book"></span>
+                    <span>Sua Biblioteca</span>
+                </button>
+                <span class="fa fa-plus"></span>
+            </div>
+            <section class="section-playlist">
+                <div class="section-playlist-content">
+                    <span class="text title">Crie Sua Primeira Playlist</span>
+                    <span class="text subtitle">Fácil, Vamos Te Ajudar</span>
+                    <button class="section-playlist-button">
+                        <span>Criar Playlist</span>
+                    </button>
+                </div>
+            </section>
+            <div class="cookies">
+                <a href="#">Cookies</a>
+            </div>
+            <div class="linguages">
+                <button class="linguages-button">
+                    <span class="fa fa-globe"></span>
+                    <span>Português do Brasil</span>
+                </button>
+            </div>
+        </div>
+
+    </div>
+    <div class="div-footer">
+        <footer>
+            <div class="footer-container">
+                <div class="footer-texts">
+                    <p class="footer-text bold">Previw of spotify</p>
+                    <p class="footer-text title">sing Up to get unlimited song and podcasts with occasional ads. No Credit card needed.</p>
+                </div>
+                <button class="signup">
+                    <span>Sign up free</span>
+                </button>
+            </div>
+        </footer>
+    </div>
 </body>
+<script src="./script.js"></script>
 </html>
