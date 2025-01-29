@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/var.css">
+    <link rel="stylesheet" href="./src/styles/main-content.css">
+    <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
         integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
@@ -17,7 +19,7 @@
     <div class="sidebar">
         <nav class="sidebar-navigation">
             <div class="sidebar-logo">
-                <a href="#"> <img src="./assets/icons/logo-spotify.png" alt="Logo Spotify"> </a>
+                <a href="#"> <img src="./src/assets/icons/logo-spotify.png" alt="Logo Spotify"> </a>
             </div>
 
                 <ul>
@@ -65,6 +67,31 @@
         </div>
 
     </div>
+
+    <main>
+        <div class="main-container">
+            <nav class="header-navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="./src/assets/icons/small-left.png" alt="seta esquerda">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="./src/assets/icons/small-right.png" alt="">
+                    </button>
+
+                    <div class="header-search">
+                        <img src="./src/assets/icons/search.png" alt="">
+                        <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?">
+                    </div>
+                    <div class="header-login">
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </main>
+
     <div class="div-footer">
         <footer>
             <div class="footer-container">
